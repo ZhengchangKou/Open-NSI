@@ -8,10 +8,15 @@ It has been used in grating lobe reduction and power Doppler Imaging.
 A complete processing chain of NSI power Doppler is included in this Repo.
 # Project Structure
 Top Level Function (top.m)
+  
   Delay Profile Generation (delaygen.m)
+  
   Apodization Generation (apod.m)
+  
   Beamforming (bf.m)
+  
   Clutter Filter (clutterfilter.m)
+  
   Display (nsidisp.m)
 # Requirement
 Matlab with GPU computing license
