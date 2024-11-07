@@ -7,20 +7,22 @@ NSI is a computationally inexpensive nonlinear beamforming method.
 It has been used in grating lobe reduction and power Doppler Imaging.
 A complete processing chain of NSI power Doppler is included in this Repo.
 # Project Structure
-Top Level Function (top.m)
+Top Level Function (Example.m)
   
-  Delay Profile Generation (delaygen.m)
+  Delay Profile Generation (DelayGen.m)
   
-  Apodization Generation (apod.m)
+  Apodization Generation (ApodGen.m)
   
-  Beamforming (bf.m)
+  Beamforming (NSIBeamformer.m)
   
-  Clutter Filter (clutterfilter.m)
+  Clutter Filter (SVDFilt.m)
   
-  Display (nsidisp.m)
+  Display (ImgDisp.m)
+
+  Test Data (RFData.mat)
+  
 # Requirement
-Matlab with GPU computing license
-Nvidia GPU with VRAM > 8GB (depending on your data size)
+Matlab and enough RAM
 # Academic References To Be Cited
 Z. Kou, R. J. Miller and M. L. Oelze, "Grating Lobe Reduction in Plane-Wave Imaging With Angular Compounding Using Subtraction of Coherent Signals," in IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control, vol. 69, no. 12, pp. 3308-3316, Dec. 2022, doi: 10.1109/TUFFC.2022.3217993.
 
