@@ -7,19 +7,20 @@ NSI is a computationally inexpensive nonlinear beamforming method.
 It has been used in grating lobe reduction and power Doppler Imaging.
 A complete processing chain of NSI power Doppler is included in this Repo.
 # Project Structure
-Top Level Function (Example.m)
-  
-  Delay Profile Generation (DelayGen.m)
-  
-  Apodization Generation (ApodGen.m)
-  
-  Beamforming (NSIBeamformer.m)
-  
-  Clutter Filter (SVDFilt.m)
-  
-  Display (ImgDisp.m)
 
-  Test Data (RFData.mat)
+BASIC
+
+  --Top Level Function (Example.m)
+  
+  --Delay Profile Generation (DelayGen.m)
+  
+  --Apodization Generation (ApodGen.m)
+  
+  --Beamforming (NSIBeamformer.m)
+  
+  --Clutter Filter (SVDFilt.m)
+  
+  --Display (ImgDisp.m)
   
 # Requirement
 Matlab and enough RAM
